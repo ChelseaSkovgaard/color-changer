@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold 700;
+}
+
+button {
+  color: #FFFFFF;
+  background-color: #E5B6D5;
+  border-top: #B2479A solid 5px;
+  border-bottom: #B2479A solid 5px;;
+  border-right: #CC7FB5 solid 5px;
+  border-left: #CC7FB5 solid 5px;
+}
+
+button:hover {
+  color: #FFFFFF;
+  background-color: #B2479A;
+  border-top: #CC7FB5 solid 5px;
+  border-bottom: #CC7FB5 solid 5px;;
+  border-right: #E5B6D5 solid 5px;
+  border-left: #E5B6D5 solid 5px;
+}
