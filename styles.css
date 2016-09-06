@@ -6,7 +6,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 500px;
 }
 
 button {
@@ -29,4 +28,14 @@ button:hover {
   border-bottom: #CC7FB5 solid 10px;;
   border-right: #E5B6D5 solid 10px;
   border-left: #E5B6D5 solid 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .reset {
+    font-size: 15px;
+    height: 50px;
+  }
+  button {
+    margin: 5px;
+  }
 }
